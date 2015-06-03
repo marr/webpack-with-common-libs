@@ -1,8 +1,4 @@
-/** @jsx React.DOM */
-// jsx annotation: makes the jsx-loader parse 
-// HTML tags in this file
-// This can be omitted in .jsx files
-
+'use strict';
 // require the react package 
 // (require("react/addons") is also possible)
 var React = require("react");
@@ -17,7 +13,4 @@ var HelloWorld = React.createClass({
 });
 
 // Render the components
-React.renderComponent(
-	<HelloWorld />,
-	document.body
-);
+React.render(<HelloWorld />, document.getElementById('app'));
