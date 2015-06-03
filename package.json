@@ -13,7 +13,7 @@
     "webpack": "~1.0.0-beta6",
     "webpack-dev-server": "~1.2.0",
     "matchdep": "~0.3.0",
-    "bootstrap": "https://github.com/twbs/bootstrap/archive/v3.0.2.tar.gz",
+    "bootstrap": "https://github.com/twbs/bootstrap/archive/v3.3.0.tar.gz",
     "bootstrap-webpack": "https://github.com/bline/bootstrap-webpack/archive/master.tar.gz",
     "raw-loader": "~0.5.0",
     "css-loader": "~0.6.6",
